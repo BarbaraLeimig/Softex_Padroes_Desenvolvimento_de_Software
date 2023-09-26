@@ -12,4 +12,3 @@ Repositório desenvolvido para execução de atividades da aula do módulo de Pa
 - npm install -g ts-node
 - ts-node main.ts (roda diretamente o arquivo)
 - npm start (tem que colocar o "start": "ts-node main.ts" dentro do .json)
-
