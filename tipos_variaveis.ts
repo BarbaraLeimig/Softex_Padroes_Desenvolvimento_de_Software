@@ -8,4 +8,7 @@ type Blusa = {
   tamanho: string;
 };
 
-console.log(cor);
+let roupa: Blusa = { cor: "azul", tamanho: "M" };
+
+console.log(roupa);
+console.log(arr);
