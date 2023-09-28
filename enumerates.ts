@@ -16,3 +16,21 @@ function verificarPermissao(usuario: TipoDeUsuario): void {
 }
 
 verificarPermissao(TipoDeUsuario.Aluno);
+
+enum Cargo {
+  Desenvolvedor,
+  Analista,
+  Aluno,
+}
+
+function verCargo(funcao: Cargo) {
+  if (funcao === Cargo.Desenvolvedor) {
+    console.log("O desenvolvedor está logado no sistema");
+  } else if (funcao === Cargo.Analista) {
+    console.log("O analista está logado no sistema");
+  } else {
+    console.log("Você não tem acesso ao sistema");
+  }
+}
+
+verCargo(Cargo.Desenvolvedor);
